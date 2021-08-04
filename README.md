@@ -1,10 +1,12 @@
 # Dependency Injection
 
-## Within a module
+# Within a module
 
 <p align="center"><img src=""/></p>
 
-## Across modules
+# Across modules
+
+## EXPOSE SERVICE, IMPORT(CONNECT) MODULE, USER SERVICE
 
 <p align="center"><img src=""/></p>
 
