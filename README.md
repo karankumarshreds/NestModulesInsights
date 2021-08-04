@@ -47,3 +47,5 @@ export class CpuService {
   constructor(public powerService: PowerService) {}
 }
 ```
+
+**"imports" property in the module decorator tells the DI CONTAINER to go into the specific module and import everything that mentioned module is exporting**
