@@ -33,4 +33,15 @@ import { PowerModule } from '../power/power.module';
 // from the all the modules listed in the imports array
 ```
 
-Now `CPUModule` can, anywhere in the code, use `PowerService` and Nest will behing the scene work on Dependency Injection for us.
+### NOW WE WILL USE POWER SERVICE INSIDE CPU SERVICE
+
+```js
+import { PowerService } from '../power/power.service';
+
+@Injectable()
+export class CpuService {
+  // nest will do the DI work for us because we have imported the PowerModule
+  // in the `imports` property of the CpuModule decorator
+  constructor(public powerService: PowerService) {}
+}
+```
