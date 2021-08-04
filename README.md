@@ -32,3 +32,5 @@ import { PowerModule } from '../power/power.module';
 // NOW, the CPU module will automatically have access to the exported services
 // from the all the modules listed in the imports array
 ```
+
+Now `CPUModule` can, anywhere in the code, use `PowerService` and Nest will behing the scene work on Dependency Injection for us.
